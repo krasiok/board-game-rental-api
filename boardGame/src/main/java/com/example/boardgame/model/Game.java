@@ -19,9 +19,10 @@ public class Game {
 
     private boolean isAvailable;
 
-    public Game() {}
+    public Game() {
+    }
 
-    public Game(String title, String category, double rentPrice){
+    public Game(String title, String category, double rentPrice) {
         this.title = title;
         this.category = category;
         this.rentPrice = rentPrice;
